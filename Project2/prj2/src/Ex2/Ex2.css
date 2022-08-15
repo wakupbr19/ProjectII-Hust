@@ -1,0 +1,21 @@
+img {
+  display: block;
+  max-width:240px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-container-ex2 {
+  margin-left: 40px;
+  width: 600px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+  padding: 6px;
+  text-align: center;
+}
+.grid-item-ex2{
+  border: 1px solid rgba(69, 120, 216, 0.8);
+  padding: 6px;
+}

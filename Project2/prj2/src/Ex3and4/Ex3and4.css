@@ -1,0 +1,71 @@
+.container{
+ width: 810px;
+ height: 520px;
+ display: grid;
+ grid-template-columns: auto auto;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ gap: 0px;
+ padding-left: 40px;
+}
+.command{
+    width: 400px;
+    height: 520px;
+    margin-left: 0px;
+    padding-right:0px ;
+}
+.grid-container {
+    width: 360px;
+    height: 480px;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+  }
+.grid-item{
+    width : 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    gap: 0px;
+}
+.blue {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: blue;
+      font-size:auto;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    border: 1px solid #333;
+}
+.runButton {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  img{
+    position: relative;
+    display: block;
+    max-width:45px;
+    max-height:45px;
+    width: auto;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  input{
+    margin-top: 250px;
+  }
+  
+ 
